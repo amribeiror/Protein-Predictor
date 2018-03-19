@@ -90,7 +90,7 @@ def TopoPRED(w_size, x_value):
                 split=[]
                 for k in f:
                     split=k.split()
-                    temp=split[2:22]
+                    temp=split[22:42]
                     temp2=[]
                     for l in temp:
                         temp2.append(sigmoid(int(l)))
