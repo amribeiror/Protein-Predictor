@@ -2,7 +2,7 @@
 echo ""
 echo "Ahoy!\nWelcome to TopoPRED, a membrane protein predictor."
 echo ""
-echo "Please make sure that your test fasta file is in the folder 'data' with the following name format: 'test.fa'."
+echo "Please make sure that your test fasta file is in the folder /data with the following name format: <filename>.fa."
 echo ""
 echo "TopoPRED will now prepare your test file."
 echo ""
