@@ -79,7 +79,7 @@ def TopoPRED(w_size, x_value):
         ###############################
         #CLASSIFIER_HERE
         ###############################
-        CLF = joblib.load('../output/SM_SVM_PSSMw15.pkl')
+        CLF = joblib.load('../input/SM_SVM_PSSMw15.pkl')
 
         RESULTS=[]
     
