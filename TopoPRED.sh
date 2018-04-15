@@ -34,6 +34,6 @@ done
 
 echo "TopoPRED will now run the model SM_SVM_PSSMw15.pkl on the query proteins."
 
-cd ../input/
+cd ../scripts/
 
 python3 SM_SVM_PSSMw15.py
