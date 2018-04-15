@@ -1,0 +1,13 @@
+Average accuracy is: 0.686291000841
+Accuracies are: [0.68629100084104289]
+F1 score is: 0.676820264682
+Precision score is: 0.676993144354
+Recall score is: 0.686291000841
+             precision    recall  f1-score   support
+
+        M:1       0.75      0.71      0.73     51520
+        O:2       0.47      0.33      0.39     19228
+        I:3       0.68      0.83      0.75     38640
+
+avg / total       0.68      0.69      0.68    109388
+
