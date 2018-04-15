@@ -1,6 +1,6 @@
 def TopoPRED(w_size, x_value):
     
-    print('\nTopoPRED is now running with a window size of ' + str(w_size) + ' and ' + str(x_value) + '-fold cross-validation.\nResults will be sent to folder /output.\n')
+    print('\nTopoPRED is now running with a window size of ' + str(w_size) + ' and ' + str(x_value) + '-fold cross-validation.\nResults will be sent to folder TopoPRED/output.\n')
 
     import time
     import math
@@ -103,4 +103,3 @@ TopoPRED(w_size=15, x_value=3)
 #TopoPRED(w_size=19, x_value=3)
 #TopoPRED(w_size=23, x_value=3)
 #TopoPRED(w_size=27, x_value=3)
-#TopoPRED(w_size=31, x_value=3)
