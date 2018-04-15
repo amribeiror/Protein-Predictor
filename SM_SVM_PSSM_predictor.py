@@ -29,9 +29,9 @@ def TopoPRED(w_size, x_value):
     IDs=[]
     seqs=[]
     
-    for i in range(0, len(f), 3):
+    for i in range(0, len(f), 2):
         IDs.append(f[i].strip('>'))
-    for i in range(1, len(f), 3):
+    for i in range(1, len(f), 2):
         seqs.append(f[i])
 
     #Defines function to normalize PSSMatrices values
