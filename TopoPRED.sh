@@ -2,13 +2,12 @@
 echo ""
 echo "Ahoy!\nWelcome to TopoPRED, a membrane protein predictor."
 
-mkdir -p TopoPRED/{scripts,input,output,logs,bin}
+mkdir -p TopoPRED/{scripts,input,output,bin}
 
 echo ""
-echo "Please make sure that your query fasta file is in the folder TopoPRED/input with the following name format: <filename>.fa."
+echo "Please make sure that your query fasta file is in the folder TopoPRED/input with the following name format: input.fa."
 echo ""
 
-mv project_andre_rosa.py PROJECTS/project_one/scripts
 echo "TopoPRED will now download uniref90 for a PSIBLAST run on the query proteins."
 echo ""
 
