@@ -1,5 +1,9 @@
 Welcome to TopoPRED, a membrane protein topology predictor.
 
-The main script for the predictor (TopoPRED.sh) contains the main commands and **will** be the main script to run the predictor, calling other scripts and requesting users to choose parameters (filepath, window size, PSSM data or not, C-value for SVC, etc) and classifiers (linear VS. kernel, for example). Some of these features are already implemented.
+The main script for the predictor (TopoPRED.sh) contains the main commands.
 
-For the purpose of the course, the remaining scrips included in /scripts should also be downloaded in order to run the respective classifier.
+Once run from the command line, TopoPRED.sh (1) generates the required folder structure, (2) runs a PSIBLAST to extract positional information for each amino acid residue in the query protein sequence(s) and (3) runs a linear SVM classifier using the Substitution Matrix with a window size = 15; these are the parameters that yield more accurate results with a test dataset (confusion matrices can be found in the folder 'graphs').
+
+For TopoPRED.sh to work, the query Fasta file **AND** the model SM_SVM_PSSMw15.pkl must be in the folder 'input'.
+
+Additional scripts used to generate models for Random Forests, Decision Tree and SVM using FM matrices can be found in the folder 'scripts', but are not required for TopoPRED to work.
