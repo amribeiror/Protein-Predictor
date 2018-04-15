@@ -1,10 +1,16 @@
 #!/bin/bash
 echo ""
 echo "Ahoy!\nWelcome to TopoPRED, a membrane protein predictor."
+
+mkdir -p TopoPRED/{scripts,input,output,logs} datasets
+mv "membrane-beta_2state.3line.txt" datasets
+
 echo ""
-echo "Please make sure that your test fasta file is in the folder /data with the following name format: <filename>.fa."
+echo "Please make sure that your query fasta file is in the folder TopoPRED/input with the following name format: <filename>.fa."
 echo ""
-echo "TopoPRED will now prepare your test file."
+
+mv project_andre_rosa.py PROJECTS/project_one/scripts
+echo "TopoPRED will now prepare your query file."
 echo ""
 
 python data_prep.py
